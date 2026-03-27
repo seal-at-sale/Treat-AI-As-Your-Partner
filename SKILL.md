@@ -2,12 +2,12 @@
 name: thesis
 version: 1.0.0
 description: |
-  Comprehensive thesis assistant for graduate students completing their Master's thesis.
+  Comprehensive thesis assistant for graduate students completing their under Master thesis.
   Guides through the entire lifecycle: topic clarification, structure planning, component
   execution, integration, and final submission. Use when working on a thesis, dissertation,
   or graduate research project. Handles experimental, theoretical, implementation, and
   literature review thesis types. Intelligently discovers available skills and recommends
-  appropriate ones (/design-review for figures, /browse for research, /codex for code),
+  appropriate ones (/design-review for figures, /browse for research),
   with fallback options and installation assistance when skills are unavailable.
 allowed-tools:
   - Bash
@@ -190,7 +190,7 @@ For each chapter/component, execute with specialized agents. Work through tasks 
 |-----------|----------|----------------------|
 | Literature review | thesis-literature-agent | /browse for finding papers |
 | Methodology design | thesis-methodology-agent | /office-hours for brainstorming |
-| Writing (any chapter) | thesis-writing-agent | /codex for review |
+| Writing (any chapter) | thesis-writing-agent | /review for quality check |
 | Data analysis | thesis-analysis-agent | /browse for techniques |
 | Figures/charts | thesis-visualization-agent | /design-review for polish |
 | Code/prototype | thesis-implementation-agent | /ship, /review, /qa |
@@ -384,7 +384,7 @@ When a component needs external skill support:
 |------|--------------|------------------------|
 | Visual design for figures | `/design-review` | Basic design guidelines + suggest installing design-review |
 | Research paper discovery | `/browse` | WebSearch tool + suggest installing browse |
-| Code review | `/review` or `/codex` | Manual code review checklist + suggest installing review/codex |
+| Code review | `/review` | Manual code review checklist + suggest installing review |
 | Brainstorming methodology | `/office-hours` | Structured questioning within thesis skill |
 | QA for thesis tools | `/qa` | Manual testing checklist + suggest installing qa |
 | Systematic debugging | `/investigate` | Structured debugging questions + suggest installing investigate |
@@ -449,7 +449,7 @@ Throughout the process, use the **Skill Discovery & Recommendation System** defi
 |----------------------|---------------|-------------------|
 | Visual design for figures | `/design-review` or `/design-consultation` | Provide design guidelines manually |
 | Find research papers | `/browse` for web search | Use WebSearch tool directly |
-| Code review for implementation | `/review` or `/codex` | Manual code review checklist |
+| Code review for implementation | `/review` | Manual code review checklist |
 | Brainstorming methodology | `/office-hours` | Structured questioning within thesis skill |
 | QA for thesis website/tool | `/qa` | Manual testing checklist |
 | Systematic debugging | `/investigate` | Structured debugging questions |

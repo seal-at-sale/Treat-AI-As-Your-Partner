@@ -1,6 +1,6 @@
 # Thesis Assistant Skill
 
-A comprehensive Claude skill to help graduate students complete their Master's thesis. This skill guides you through the entire thesis lifecycle from topic clarification to final submission.
+A comprehensive Claude skill to help graduate students complete their under Master thesis. This skill guides you through the entire thesis lifecycle from topic clarification to final submission.
 
 ## Features
 
@@ -55,7 +55,7 @@ This skill intelligently recommends other Claude skills when appropriate:
 |--------------|-------------------|------------------------|
 | Visual design for figures | `/design-review`, `/design-consultation` | Manual design guidelines |
 | Research paper discovery | `/browse` | WebSearch tool |
-| Code review | `/review`, `/codex` | Manual code review checklist |
+| Code review | `/review` | Manual code review checklist |
 | Brainstorming methodology | `/office-hours` | Structured questioning |
 | QA testing | `/qa` | Manual testing checklist |
 | Debugging | `/investigate` | Structured debugging questions |
