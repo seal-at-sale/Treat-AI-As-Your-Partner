@@ -18,7 +18,7 @@ A comprehensive Claude skill to help graduate students complete their under Mast
 ### Option 1: Via Git Clone
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/YOUR_USERNAME/claude-skill-thesis.git thesis
+git clone https://github.com/seal-at-sale/Treat-AI-As-Your-Partner.git thesis
 ```
 
 ### Option 2: Via Claude Plugin Manager
